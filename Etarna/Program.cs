@@ -16,6 +16,5 @@ app.MapControllerRoute(
     pattern: "{controller=home}/{action=index}/{id?}"
     );
 
-//app.UseStaticFiles();
 
 app.Run();
